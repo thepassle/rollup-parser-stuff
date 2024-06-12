@@ -1,11 +1,10 @@
-var foo = 1;
-
-const bar = 2;
-
+// import foo from './foo.json' with { type: 'json' };
+// import { bar } from './bar.js';
 // await import('./baz.js');
 
-class Foo {
-  bar;
-}
+import('./baz-DpHQ3jan.js');
+// class Foo {
+//   bar;
+// }
 
-console.log('hello', Foo, foo, bar);
+// console.log('hello', Foo, foo, bar);
