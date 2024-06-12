@@ -1,6 +1,6 @@
 export default {
-  input: 'index.js',
+  input: 'foo.js',
   output: {
-    dir: 'dist'
-  }
-}
+    dir: 'dist',
+  },
+};

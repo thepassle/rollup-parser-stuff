@@ -1,0 +1,131 @@
+{
+  "flags": 0,
+  "parent": {
+    "context": {
+      "code": "export default 1;",
+      "deoptimizationTracker": {
+        "entityPaths": {}
+      },
+      "fileName": "/Users/wq65pg/Developer/ING/rollup-parser-stuff/foo.js",
+      "importDescriptions": {},
+      "magicString": {},
+      "manualPureFunctions": {},
+      "module": {
+        "ast": null,
+        "attributes": {},
+        "code": "export default 1;",
+        "customTransformCache": false,
+        "dependencies": [],
+        "id": "/Users/wq65pg/Developer/ING/rollup-parser-stuff/foo.js",
+        "meta": {},
+        "moduleSideEffects": true,
+        "originalCode": "export default 1;",
+        "originalSourcemap": null,
+        "resolvedIds": {},
+        "sourcemapChain": [],
+        "syntheticNamedExports": false,
+        "transformDependencies": []
+      },
+      "moduleContext": "undefined",
+      "options": {
+        "cache": false,
+        "context": "undefined",
+        "experimentalCacheExpiry": 10,
+        "experimentalLogSideEffects": false,
+        "input": [
+          "foo.js"
+        ],
+        "logLevel": "info",
+        "makeAbsoluteExternalsRelative": "ifRelativeSource",
+        "maxParallelFileOps": 20,
+        "perf": false,
+        "plugins": [
+          {
+            "name": "stdin"
+          }
+        ],
+        "preserveEntrySignatures": "exports-only",
+        "preserveSymlinks": false,
+        "shimMissingExports": false,
+        "strictDeprecations": false,
+        "treeshake": {
+          "annotations": true,
+          "correctVarValueBeforeDeclaration": false,
+          "manualPureFunctions": [],
+          "propertyReadSideEffects": true,
+          "tryCatchDeoptimization": true,
+          "unknownGlobalSideEffects": true
+        }
+      },
+      "usesTopLevelAwait": false
+    },
+    "type": "Module"
+  },
+  "scope": {
+    "children": [],
+    "variables": {},
+    "parent": {
+      "children": [
+        null
+      ],
+      "variables": {},
+      "parent": null
+    },
+    "accessedOutsideVariables": {}
+  },
+  "hasCachedEffect": null,
+  "hasLoggedEffect": false,
+  "type": "Program",
+  "start": 0,
+  "end": 17,
+  "body": [
+    {
+      "flags": 0,
+      "type": "ExportDefaultDeclaration",
+      "start": 0,
+      "end": 17,
+      "declaration": {
+        "flags": 0,
+        "type": "Literal",
+        "start": 15,
+        "end": 16,
+        "raw": "1",
+        "value": 1,
+        "members": {}
+      },
+      "variable": {
+        "flags": 0,
+        "name": "foo",
+        "alwaysRendered": false,
+        "forbiddenNames": null,
+        "initReached": false,
+        "isId": false,
+        "kind": "other",
+        "renderBaseName": null,
+        "renderName": null,
+        "isReassigned": false,
+        "onlyFunctionCallUsed": true,
+        "calledFromTryStatement": false,
+        "additionalInitializers": null,
+        "expressionsToBeDeoptimized": [],
+        "declarations": [
+          null
+        ],
+        "module": {
+          "ast": null,
+          "code": "export default 1;",
+          "customTransformCache": false,
+          "dependencies": [],
+          "id": "/Users/wq65pg/Developer/ING/rollup-parser-stuff/foo.js",
+          "moduleSideEffects": true,
+          "originalCode": "export default 1;",
+          "originalSourcemap": null,
+          "syntheticNamedExports": false
+        },
+        "hasId": false,
+        "originalId": null,
+        "originalVariable": null
+      }
+    }
+  ]
+}
