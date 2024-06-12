@@ -1,6 +1,6 @@
 import foo from './foo.js';
 import { bar } from './bar.js';
-await import('./baz.js');
+// await import('./baz.js');
 
 class Foo {
   bar;

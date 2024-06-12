@@ -2,7 +2,7 @@ var foo = 1;
 
 const bar = 2;
 
-await import('./baz-DpHQ3jan.js');
+// await import('./baz.js');
 
 class Foo {
   bar;
